@@ -15,5 +15,6 @@ namespace DB
         public string Nombre { get; set; }
         public string Correo { get; set; }
         public DateTime FechaDeNacimiento { get; set; }
+        public string Password { get; set; }
     }
 }
