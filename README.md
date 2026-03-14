@@ -4,7 +4,7 @@
 | ------------ | ------------ |
 | 27/2/2026  |  5 (Creación API) |
 |  6/3/2026 |  6 (Integración de autenticación) |
-|  13/3/2026 | 7 (Optimización de código) |
+|  13/3/2026 | 7 (Code First) |
 
 **Instrucciones:**
 
