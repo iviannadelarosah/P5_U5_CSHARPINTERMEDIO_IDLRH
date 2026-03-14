@@ -2,7 +2,7 @@
 {
     public class LoginRequest
     {
-        public string UsuarioId { get; set; }
-        public string Password { get; set; }
+        public string UsuarioId { get; set; } = string.Empty;
+        public string Password { get; set; } = string.Empty;
     }
 }

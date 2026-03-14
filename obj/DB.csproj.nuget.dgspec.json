@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ivian\\source\\repos\\DB\\DB.csproj": {}
+    "C:\\Users\\ivian\\source\\repos\\P5_U5_CSHARPINTERMEDIO_IDLRH\\DB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ivian\\source\\repos\\DB\\DB.csproj": {
+    "C:\\Users\\ivian\\source\\repos\\P5_U5_CSHARPINTERMEDIO_IDLRH\\DB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivian\\source\\repos\\DB\\DB.csproj",
+        "projectUniqueName": "C:\\Users\\ivian\\source\\repos\\P5_U5_CSHARPINTERMEDIO_IDLRH\\DB.csproj",
         "projectName": "DB",
-        "projectPath": "C:\\Users\\ivian\\source\\repos\\DB\\DB.csproj",
+        "projectPath": "C:\\Users\\ivian\\source\\repos\\P5_U5_CSHARPINTERMEDIO_IDLRH\\DB.csproj",
         "packagesPath": "C:\\Users\\ivian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivian\\source\\repos\\DB\\obj\\",
+        "outputPath": "C:\\Users\\ivian\\source\\repos\\P5_U5_CSHARPINTERMEDIO_IDLRH\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.104/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -35,13 +35,13 @@ namespace P5_U5_CSHARPINTERMEDIO_IDLRH.Custom
                 return builder.ToString();
             }
         }
-        public string GenerarTokenJWT(int usuarioId)
+        public string GenerarTokenJWT(int UsuarioId)
         {
             var jwtKey = _configuration["Jwt:Key"];
 
             var claims = new[]
             {
-                new Claim(JwtRegisteredClaimNames.UniqueName, usuarioId.ToString()),
+                new Claim(JwtRegisteredClaimNames.UniqueName, UsuarioId.ToString()),
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey));
