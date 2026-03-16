@@ -72,13 +72,24 @@
 
 3. POST[/api/Usuarios]:
 
-<img width="1857" height="1027" alt="image" src="https://github.com/user-attachments/assets/dd91ee20-9219-4250-a9ac-331423ab0920" />
-<img width="1596" height="749" alt="image" src="https://github.com/user-attachments/assets/c10d9f08-b59e-4ca6-821f-dfcd49524a1d" />
-<img width="1493" height="800" alt="image" src="https://github.com/user-attachments/assets/f19a2586-0513-4b10-bc17-08397d11d0d2" />
+<img width="1861" height="1026" alt="Image" src="https://github.com/user-attachments/assets/223b02f7-5ac2-4b63-8c4a-f2f9c7a5ab8f" />
+<img width="1853" height="1027" alt="Image" src="https://github.com/user-attachments/assets/813351b5-b0f3-40d9-b8a9-500b38a813a6" />
+> [!NOTE]
+>Ya que tenemos el campo Id como un campo auto incrementable, se elimina.
+<img width="1858" height="1025" alt="Image" src="https://github.com/user-attachments/assets/7567202c-fc00-4455-bde0-5257e478eca2" />
+<img width="1860" height="1024" alt="Image" src="https://github.com/user-attachments/assets/217b9802-c9b7-417c-8591-58709bbc7557" />
 
 **Resultado:** [200 OK]
 
-<img width="1521" height="881" alt="image" src="https://github.com/user-attachments/assets/9e37c83e-b6a7-484e-a94e-f6b635db0ca4" />
+<img width="1859" height="1027" alt="Image" src="https://github.com/user-attachments/assets/1393af1c-85b0-4156-b216-6af4013b0fd9" />
+
+**Resultado:** [400 Bad Request]
+
+> [!IMPORTANT]
+>Este resultado es a la hora de postear un usuario nuevo con un correo que ya existe en la base de datos.
+<img width="1858" height="1025" alt="Image" src="https://github.com/user-attachments/assets/db1f1a98-7a2f-43e2-b9d7-119fab0c99d8" />
+<img width="1858" height="1025" alt="Image" src="https://github.com/user-attachments/assets/9d6b6aad-37e6-4cc5-9147-df7a81d2588e" />
+<img width="1860" height="1026" alt="Image" src="https://github.com/user-attachments/assets/a653ffb1-5f08-46c6-a6c0-20899da72fa7" />
 
 **Resultado:** [401 Unauthorized]
 
