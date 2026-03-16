@@ -1,0 +1,6 @@
+@PF_CSHARPINTERMEDIO_IDLRH_HostAddress = http://localhost:5182
+
+GET {{PF_CSHARPINTERMEDIO_IDLRH_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

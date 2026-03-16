@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../DataBase/DataBase.csproj" />
+  <Project Path="PF_CSHARPINTERMEDIO_IDLRH.csproj" />
+</Solution>
