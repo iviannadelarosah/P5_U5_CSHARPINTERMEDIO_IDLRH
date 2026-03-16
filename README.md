@@ -81,7 +81,7 @@
 <img width="1858" height="1025" alt="Image" src="https://github.com/user-attachments/assets/7567202c-fc00-4455-bde0-5257e478eca2" />
 <img width="1860" height="1024" alt="Image" src="https://github.com/user-attachments/assets/217b9802-c9b7-417c-8591-58709bbc7557" />
 
-**Resultado:** [200 OK]
+**Resultado:** [201 Created]
 
 <img width="1859" height="1027" alt="Image" src="https://github.com/user-attachments/assets/1393af1c-85b0-4156-b216-6af4013b0fd9" />
 
