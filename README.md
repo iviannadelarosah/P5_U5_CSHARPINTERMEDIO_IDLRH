@@ -42,38 +42,40 @@
 
 > **Usuarios**
 
-1. GET[/api/Usuarios]: 
+1. GET [/api/usuarios]: 
 
-<img width="1862" height="1027" alt="image" src="https://github.com/user-attachments/assets/f589bbd3-e836-4b23-a0a7-a291681e46cd" />
-<img width="1468" height="648" alt="image" src="https://github.com/user-attachments/assets/485486b6-260b-44f4-b2d2-990d2fe60370" />
-<img width="1508" height="730" alt="image" src="https://github.com/user-attachments/assets/c52c3ac8-d57b-4b39-a3b2-e2f7623d0185" />
+<img width="1856" height="1025" alt="Image" src="https://github.com/user-attachments/assets/001842c9-1f96-459a-9eed-858806f0a0c4" />
+<img width="1858" height="1027" alt="Image" src="https://github.com/user-attachments/assets/6168402c-08f0-4f53-9f5e-8084d9aa8d71" />
+<img width="1860" height="1026" alt="Image" src="https://github.com/user-attachments/assets/806c110a-7f70-4f2d-898b-4ae4c722a949" />
 
 **Resultado:** [200 OK]
 
-<img width="1421" height="830" alt="image" src="https://github.com/user-attachments/assets/41f34c1b-cdd4-407e-8e9c-010a0c6bd8a3" />
+<img width="1858" height="1026" alt="Image" src="https://github.com/user-attachments/assets/0653ca64-4fc8-45bc-9fcc-29c6a7026805" />
 
 **Resultado:** [401 Unauthorized]
 
 <img width="1421" height="461" alt="image" src="https://github.com/user-attachments/assets/5fc96c98-5ea1-425f-9bfe-210e63f5143d" />
 
-2. GET/id[/api/Usuarios/{id}]:
+2. GET/Id [/api/usuarios/{Id}]:
 
-<img width="1854" height="1025" alt="image" src="https://github.com/user-attachments/assets/c996944b-f154-4a48-8470-92af21077574" />
-<img width="1568" height="823" alt="image" src="https://github.com/user-attachments/assets/48a63c01-dbd4-4f32-883b-07bfebda98d3" />
-<img width="1469" height="743" alt="image" src="https://github.com/user-attachments/assets/69fd49b9-9ae7-4743-b17c-91ff720f2d75" />
+<img width="1861" height="1027" alt="Image" src="https://github.com/user-attachments/assets/2d281530-9594-4f4b-a350-a6a0dd2befd7" />
+<img width="1859" height="1027" alt="Image" src="https://github.com/user-attachments/assets/d8b283db-23e7-478b-803b-5ed76dd5c929" />
+<img width="1859" height="1026" alt="Image" src="https://github.com/user-attachments/assets/b738d213-5dff-4a40-a31c-e545aef9c961" />
+<img width="1859" height="1026" alt="Image" src="https://github.com/user-attachments/assets/022ffed5-f41e-41da-94ee-ae972eaf3813" />
 
 **Resultado:** [200 OK]
 
-<img width="1471" height="883" alt="image" src="https://github.com/user-attachments/assets/dbcc908a-e802-4fe5-8ccf-d81d8070bbda" />
+<img width="1857" height="1024" alt="Image" src="https://github.com/user-attachments/assets/cf0a6e3c-6c85-47db-8c95-fb8b009eeb61" />
 
 **Resultado:** [401 Unauthorized]
 
 <img width="1423" height="446" alt="image" src="https://github.com/user-attachments/assets/4bbb3aaa-d897-4c8d-8d37-88f1494f1f9c" />
 
-3. POST[/api/Usuarios]:
+3. POST [/api/usuarios]:
 
 <img width="1861" height="1026" alt="Image" src="https://github.com/user-attachments/assets/223b02f7-5ac2-4b63-8c4a-f2f9c7a5ab8f" />
 <img width="1853" height="1027" alt="Image" src="https://github.com/user-attachments/assets/813351b5-b0f3-40d9-b8a9-500b38a813a6" />
+
 > [!NOTE]
 >Ya que tenemos el campo Id como un campo auto incrementable, se elimina.
 <img width="1858" height="1025" alt="Image" src="https://github.com/user-attachments/assets/7567202c-fc00-4455-bde0-5257e478eca2" />
@@ -97,13 +99,18 @@
 
 4. PUT/id[/api/Usuarios/{id}]:
 
-<img width="1861" height="1029" alt="image" src="https://github.com/user-attachments/assets/536d47ef-3938-4897-979d-e721fc94e2f1" />
-<img width="1484" height="693" alt="image" src="https://github.com/user-attachments/assets/555d4e80-ebbd-4906-893d-894fc0c36a0a" />
-<img width="1512" height="710" alt="image" src="https://github.com/user-attachments/assets/50b9d12b-f036-47e3-86a1-9354f5542c52" />
+<img width="1859" height="1027" alt="Image" src="https://github.com/user-attachments/assets/b9a64b98-533a-4c0a-aec5-b62ad83d40aa" />
+<img width="1860" height="1029" alt="Image" src="https://github.com/user-attachments/assets/799d5335-d09c-4e07-9228-dd90a38d58f5" />
+<img width="1858" height="1024" alt="Image" src="https://github.com/user-attachments/assets/0de5c90d-c660-4fb8-8623-6b404fed8297" />
 
-**Resultado:** [200 OK]
+> [!IMPORTANT]
+>Tenemos que poner en el Id(id) el mismo valor del usuario que queremos actualizar.
+<img width="1858" height="1024" alt="Image" src="https://github.com/user-attachments/assets/51c4b165-db98-4e0e-a748-2bb331218dac" />
+<img width="1858" height="1024" alt="Image" src="https://github.com/user-attachments/assets/824e2b3e-f4ee-45c6-9edf-bd575e8ac810" />
 
-<img width="1502" height="802" alt="image" src="https://github.com/user-attachments/assets/bafb09b3-e414-4a12-83f3-4a25697c8b73" />
+**Resultado:** [204 No Content]
+
+<img width="1860" height="1025" alt="Image" src="https://github.com/user-attachments/assets/f68aa5a0-b6a8-4d7c-82ee-8819c39806bc" />
 
 **Resultado:** [401 Unauthorized]
 
@@ -111,13 +118,14 @@
 
 5. DELETE/id[/api/Usuarios/{id}]:
 
-<img width="1863" height="1029" alt="image" src="https://github.com/user-attachments/assets/205fdac7-08e4-459b-9ead-2ff05ae526ce" />
-<img width="1461" height="487" alt="image" src="https://github.com/user-attachments/assets/08c813ad-345d-485d-8220-cd4e7e0a37af" />
-<img width="1526" height="588" alt="image" src="https://github.com/user-attachments/assets/44884fb8-328b-414f-920e-823e8e2a84ff" />
+<img width="1861" height="1025" alt="Image" src="https://github.com/user-attachments/assets/d4c991d6-ecf9-4036-9138-7dc91a1f87fa" />
+<img width="1860" height="1026" alt="Image" src="https://github.com/user-attachments/assets/7101e6f1-2e06-43fe-88f0-80c11eef1ba5" />
+<img width="1857" height="1027" alt="Image" src="https://github.com/user-attachments/assets/f20339ee-bfe5-4830-962b-c1edfd2036bf" />
+<img width="1857" height="1027" alt="Image" src="https://github.com/user-attachments/assets/b6da462e-82e0-4917-94ee-7263707ab8d2" />
 
-**Resultado:** [200 OK]
+**Resultado:** [204 No Content]
 
-<img width="1494" height="831" alt="image" src="https://github.com/user-attachments/assets/971e5806-79da-4ba6-a872-09c7e225106f" />
+<img width="1856" height="1027" alt="Image" src="https://github.com/user-attachments/assets/a57d5fbe-8a17-47f1-847a-26eb77d6014d" />
 
 **Resultado:** [401 Unauthorized]
 
