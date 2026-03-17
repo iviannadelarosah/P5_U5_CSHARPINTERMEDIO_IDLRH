@@ -10,9 +10,13 @@
 
 1. Debe de ejecutar el console application P5_U5_CSHARPINTERMEDIO_IDLRH para poder acceder a la API.
 2. Debe de dar clic a la ventana del navegador que te llevará al **Swagger**.
+
+> [!NOTE]
+>Para poder hacer el login, debes de tener un usuario ya guardado en la base de datos.
 3. Debe de ejecutar el endpoint /api/Auth/login para autenticar al usuario y devolver un token JWT.
-4. Debe de ejecutar el endpoint /api/Auth/refresh para renovar el token JWT antes de que expire.
-5. Debe de hacer las consultas especificadas: CRUD.
+4. Debe de hacer las consultas especificadas: CRUD.
+> [!NOTE]
+>Si quieres renovar el token JWT antes de que expire, puedes ejecutar el endpoint /api/Auth/refresh
 
 **¿Como ejecutar las rutas?**
 
@@ -20,23 +24,25 @@
 
 1. POST[/api/Auth/login]:
 
-<img width="1731" height="849" alt="image" src="https://github.com/user-attachments/assets/f4090710-45bd-4dca-8c46-bfc0925a19cc" />
-<img width="1520" height="808" alt="image" src="https://github.com/user-attachments/assets/0717a823-a6b3-4b13-be90-60bb75593b4c" />
-<img width="1520" height="808" alt="image" src="https://github.com/user-attachments/assets/f9480d7f-b0f3-43a5-bd60-6dc63c3808ff" />
+<img width="1860" height="1026" alt="Image" src="https://github.com/user-attachments/assets/70f1d812-dbc4-45c5-b074-33f34ac95f1b" />
+<img width="1859" height="1025" alt="Image" src="https://github.com/user-attachments/assets/e15bc060-30d7-45e7-8d17-33d5fa0e910e" />
+<img width="1860" height="1027" alt="Image" src="https://github.com/user-attachments/assets/5d1d108b-1f01-431b-b6d5-d53ca94510f8" />
+<img width="1860" height="1027" alt="Image" src="https://github.com/user-attachments/assets/25d07b8e-f67b-4776-add7-1ef901185bd2" />
 
 **Resultado:** [200 OK]
 
-<img width="1672" height="803" alt="image" src="https://github.com/user-attachments/assets/024c1b59-5714-4513-b984-9c97bd4b7c27" />
+<img width="1859" height="1026" alt="Image" src="https://github.com/user-attachments/assets/1d41db88-7488-4639-b3d5-f45fde8f827e" />
 
 2. POST[/api/Auth/refresh]:
 
-<img width="1665" height="800" alt="image" src="https://github.com/user-attachments/assets/e296b856-928c-4f13-8d6d-f37f5991413b" />
-<img width="1662" height="1019" alt="image" src="https://github.com/user-attachments/assets/5a7f982d-ef78-412d-aa39-eba4f386bcdb" />
-<img width="1662" height="1019" alt="image" src="https://github.com/user-attachments/assets/b49e0391-6d9c-4d98-b72b-a048ae46d83b" />
+<img width="1857" height="1025" alt="Image" src="https://github.com/user-attachments/assets/1de45dd1-11b3-4bda-b04e-bef9dd21d03d" />
+<img width="1859" height="1024" alt="Image" src="https://github.com/user-attachments/assets/eefb740f-d52e-4abe-9075-8b9180881c0f" />
+<img width="1860" height="1026" alt="Image" src="https://github.com/user-attachments/assets/7be84808-1b60-4c0a-8b2b-edad50ffcfed" />
+<img width="1860" height="1026" alt="Image" src="https://github.com/user-attachments/assets/b05b4c8e-3172-459e-b01a-3cfeaa744c4a" />
 
 **Resultado:** [200 OK]
 
-<img width="1657" height="842" alt="image" src="https://github.com/user-attachments/assets/48bb5519-d913-43dc-82a1-c6d32c5dd5c9" />
+<img width="1855" height="1028" alt="Image" src="https://github.com/user-attachments/assets/058fddc0-9b41-41a2-95dc-f2dd3127e147" />
 
 ------------
 
@@ -54,7 +60,7 @@
 
 **Resultado:** [401 Unauthorized]
 
-<img width="1421" height="461" alt="image" src="https://github.com/user-attachments/assets/5fc96c98-5ea1-425f-9bfe-210e63f5143d" />
+<img width="1854" height="1028" alt="Image" src="https://github.com/user-attachments/assets/7707bbdd-67c5-4bd6-b066-b5344774ee80" />
 
 2. GET/Id [/api/usuarios/{Id}]:
 
