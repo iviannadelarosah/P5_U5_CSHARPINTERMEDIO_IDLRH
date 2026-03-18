@@ -1,4 +1,4 @@
-> [!IMPORTANTE]
+> [!IMPORTANT]
 >Para poder hacer login se necesita tener un usuario con su username y password registrado en la Base de Datos | Hacer un POST [/api/usuarios] si no tienes un usuario creado.
 
 **POST[/api/Auth/login]**
@@ -45,7 +45,7 @@
 <img width="1861" height="1026" alt="image" src="https://github.com/user-attachments/assets/8c14cf06-6667-4fec-ab57-9544b2ca586a" />
 <img width="1858" height="1025" alt="image" src="https://github.com/user-attachments/assets/47ae67d8-47f6-4421-814d-0e090fc24c5a" />
 
-> [!NOTA]
+> [!NOTE]
 >Para las respuestas [200 OK] de c/u de los endpoints usuarios, se debe de ingresar el token generado por el endpoint POST[/api/Auth/login]
 
 <img width="1861" height="1029" alt="image" src="https://github.com/user-attachments/assets/24006cf1-faaa-4d6d-8a7b-4e1a9aa94401" />
