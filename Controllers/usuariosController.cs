@@ -40,7 +40,6 @@ namespace PF_CSHARPINTERMEDIO_IDLRH.Controllers
 
             var usuarioId = User?.FindFirst("UsuarioId")?.Value;
             var nombre = User?.Identity?.Name;
-            var rol = User?.FindFirst(ClaimTypes.Role)?.Value;
 
             var existeCorreo = _context.usuarios.Any(u => u.Correo == usuario.Correo);
             if (existeCorreo)
@@ -82,7 +81,6 @@ namespace PF_CSHARPINTERMEDIO_IDLRH.Controllers
 
             var usuarioId = User?.FindFirst("UsuarioId")?.Value;
             var nombre = User?.Identity?.Name;
-            var rol = User?.FindFirst(ClaimTypes.Role)?.Value;
 
             return Ok(new { mensaje = "Usuario actualizado", claims = new { usuarioId, nombre } });
         }
@@ -100,9 +98,8 @@ namespace PF_CSHARPINTERMEDIO_IDLRH.Controllers
 
             var usuarioId = User?.FindFirst("UsuarioId")?.Value;
             var nombre = User?.Identity?.Name;
-            var rol = User?.FindFirst(ClaimTypes.Role)?.Value;
 
-            return Ok(new { mensaje = "Usuario eliminado", claims = new { usuarioId, nombre, rol } });
+            return Ok(new { mensaje = "Usuario eliminado", claims = new { usuarioId, nombre } });
         }
     }
 }
