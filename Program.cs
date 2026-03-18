@@ -61,6 +61,10 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddDbContext<UsuarioContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("UsuarioConnection"),
         b => b.MigrationsAssembly("DataBase")));
 
+builder.Services.AddDbContext<ProductoContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("UsuarioConnection"),
+    b => b.MigrationsAssembly("DataBase")));
+
 var app = builder.Build();
 
 /*using (var scope = app.Services.CreateScope())
