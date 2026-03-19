@@ -1,0 +1,1 @@
+{"Id":9,"Nombre":"Daniel Pimentel","Correo":"dpimentel@example.com","Username":"dpimentel","FechaDeNacimiento":"2001-03-19T23:06:07.346Z","FechaRegistro":"2026-03-19T19:09:27.931643-04:00"}

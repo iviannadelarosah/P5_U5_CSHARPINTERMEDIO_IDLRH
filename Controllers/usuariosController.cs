@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using PF_CSHARPINTERMEDIO_IDLRH.Security;
 using System.Security.Claims;
+using System.Text.Json;
 
 namespace PF_CSHARPINTERMEDIO_IDLRH.Controllers
 {
@@ -52,11 +53,55 @@ namespace PF_CSHARPINTERMEDIO_IDLRH.Controllers
             _context.usuarios.Add(usuario);
             _context.SaveChanges();
 
+            string logPath = "UsuariosLogs.txt";
+            using (StreamWriter writer = new StreamWriter(logPath, true))
+            {
+                var jsonLog = JsonSerializer.Serialize(new
+                {
+                    usuario.Id,
+                    usuario.Nombre,
+                    usuario.Correo,
+                    usuario.Username,
+                    usuario.FechaDeNacimiento,
+                    FechaRegistro = DateTime.Now
+                });
+
+                writer.WriteLine(jsonLog);
+            }
+
             return CreatedAtAction(nameof(GetById), new { Id = usuario.Id }, new 
             {
                 usuario,
                 claims = new { usuarioId, nombre }
             });
+        }
+
+        [HttpGet("logs")]
+        public IActionResult GetHistorialLogs()
+        {
+            string logPath = "UsuariosLogs.txt";
+
+            if (!System.IO.File.Exists(logPath))
+            {
+                return NotFound(new { mensaje = "No existe archivo de logs" });
+            }
+
+            var historial = new List<string>();
+            using (StreamReader reader = new StreamReader(logPath))
+            {
+                string linea;
+                while ((linea = reader.ReadLine()) != null)
+                {
+                    historial.Add(linea);
+                }
+            }
+
+            if (historial.Count == 0)
+            {
+                return NotFound(new { mensaje = "El archivo de logs está vacío" });
+            }
+
+            return Ok(historial);
         }
 
         [Authorize]
